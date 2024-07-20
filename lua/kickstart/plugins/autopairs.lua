@@ -1,4 +1,4 @@
--- autopairs
+-- autopairs для автоматического добавления парных символов
 -- https://github.com/windwp/nvim-autopairs
 
 return {
