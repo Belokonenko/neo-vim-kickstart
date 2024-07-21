@@ -28,6 +28,22 @@ vim.opt.scrolloff = 10
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+--Чтобы автоматически восстанавливать файл из swap-файла
+vim.cmd [[
+  augroup AutoRecoverSwap
+    autocmd!
+    autocmd SwapExists * let v:swapchoice = 'e'
+  augroup END
+]]
+-- Отключение swap-файлов
+-- vim.o.swapfile = false
+
+-- Отключение резервного копирования
+-- vim.o.backup = false
+
+-- Отключение undo-файлов
+-- vim.o.undofile = false
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next [D]iagnostic message' })
