@@ -3,6 +3,9 @@ vim.opt.tabstop = 4 -- Количество пробелов для табуля
 vim.opt.shiftwidth = 4 -- Количество пробелов для автоматических отступов
 vim.opt.softtabstop = 4 -- Количество пробелов, которые будут отображаться при нажатии на Tab
 
+--Открыть папку с файлом в системе
+vim.api.nvim_set_keymap('n', '<C-o>', ':lua vim.fn.system("xdg-open " .. vim.fn.expand("%:p:h"))<CR>', { noremap = true, silent = true })
+
 vim.o.wrap = false
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
