@@ -1,71 +1,70 @@
 {
-  "printWidth": 80,
-  "tabWidth": 4,
-  "useTabs": false,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "es5",
-  "bracketSpacing": true,
-  "arrowParens": "always",
-  "endOfLine": "lf",
-  "overrides": [
-    {
-      "files": "*.css",
-      "options": {
-        "semi": false,
-        "singleQuote": false,
-        "trailingComma": "none",
-        "bracketSpacing": false,
-        "printWidth": 80,
-        "cssWhitespaceSensitivity": "ignore"
-      }
-    },
-    {
-      "files": "*.html",
-      "options": {
-        "semi": false,
-        "singleQuote": false,
-        "trailingComma": "none",
-        "bracketSpacing": true,
-        "printWidth": 280,
-        "jsxBracketSameLine": false,
-        "htmlWhitespaceSensitivity": "ignore"
-      }
-    },
-    {
-      "files": "*.json",
-      "options": {
-        "semi": false,
-        "singleQuote": false,
-        "trailingComma": "none",
-        "bracketSpacing": true,
-        "printWidth": 80
-      }
-    },
-    {
-      "files": "*.scss",
-      "options": {
-        "semi": false,
-        "singleQuote": false,
-        "trailingComma": "none",
-        "bracketSpacing": false,
-        "printWidth": 80,
-        "cssWhitespaceSensitivity": "ignore"
-      }
-    },
-    {
-      "files": "*.js",
-      "options": {
-        "printWidth": 80,
-        "tabWidth": 2,
-        "useTabs": false,
-        "semi": true,
-        "singleQuote": true,
-        "trailingComma": "es5",
-        "bracketSpacing": true,
-        "arrowParens": "always",
-        "endOfLine": "lf"
-      }
-    }
-  ]
+    "printWidth": 80,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": "*.css",
+            "options": {
+                "semi": false,
+                "singleQuote": false,
+                "trailingComma": "none",
+                "bracketSpacing": false,
+                "printWidth": 80,
+                "cssWhitespaceSensitivity": "ignore"
+            }
+        },
+        {
+            "files": "*.html",
+            "options": {
+                "semi": false,
+                "singleQuote": false,
+                "trailingComma": "none",
+                "bracketSpacing": true,
+                "printWidth": 280,
+                "jsxBracketSameLine": false,
+                "htmlWhitespaceSensitivity": "ignore"
+            }
+        },
+        {
+            "files": "*.json",
+            "options": {
+                "semi": false,
+                "singleQuote": false,
+                "trailingComma": "none",
+                "bracketSpacing": true,
+                "printWidth": 80
+            }
+        },
+        {
+            "files": "*.scss",
+            "options": {
+                "semi": false,
+                "singleQuote": false,
+                "trailingComma": "none",
+                "bracketSpacing": false,
+                "printWidth": 80,
+                "cssWhitespaceSensitivity": "ignore"
+            }
+        },
+        {
+            "files": "*.js",
+            "options": {
+                "printWidth": 80,
+                "useTabs": false,
+                "semi": true,
+                "singleQuote": true,
+                "trailingComma": "es5",
+                "bracketSpacing": true,
+                "arrowParens": "always",
+                "endOfLine": "lf"
+            }
+        }
+    ]
 }
