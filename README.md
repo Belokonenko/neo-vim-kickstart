@@ -1,4 +1,10 @@
 kik переделаный
+
+# Linux / MacOS (unix)
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+
   ◍ css-lsp cssls
     ◍ eslint-lsp eslint
     ◍ eslint_d
