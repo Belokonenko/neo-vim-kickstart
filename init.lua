@@ -1,7 +1,7 @@
-vim.opt.expandtab = true -- Использовать пробелы вместо табуляции
-vim.opt.tabstop = 4 -- Количество пробелов для табуляции
-vim.opt.shiftwidth = 4 -- Количество пробелов для автоматических отступов
-vim.opt.softtabstop = 4 -- Количество пробелов, которые будут отображаться при нажатии на Tab
+-- vim.opt.expandtab = true -- Использовать пробелы вместо табуляции
+-- vim.opt.tabstop = 4 -- Количество пробелов для табуляции
+-- vim.opt.shiftwidth = 4 -- Количество пробелов для автоматических отступов
+-- vim.opt.softtabstop = 4 -- Количество пробелов, которые будут отображаться при нажатии на Tab
 
 vim.o.wrap = false
 vim.g.mapleader = ' '
@@ -27,7 +27,6 @@ vim.opt.cursorline = false
 vim.opt.scrolloff = 10
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
-vim.api.nvim_set_option('clipboard', 'unnamedplus')
 
 --Чтобы автоматически восстанавливать файл из swap-файла
 vim.cmd [[
